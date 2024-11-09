@@ -272,12 +272,12 @@ Jenis grafik banyak sekali. Apalagi kalau banyak sekali perangkat lunak yang dap
 <p>Grafik ini adalah grafik yang paling sederhana yang dapat untuk menggambarkan suatu perkembangan suatu data. Yang ada. Dalam grafik garis kita akan melihat trend yang meningkat karena suatu kenaikan atau data yang meningkat perlahan-lahan ataupun bisa peningkatan tersebut melonjak begitu tajam karena daya yang meningkat aecara tajam.</p>
 <div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="penyajian-data.html#cb30-1" tabindex="-1"></a>roket<span class="ot">=</span><span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">10</span>,<span class="dv">13</span>,<span class="dv">3</span>,<span class="dv">4</span>)</span>
 <span id="cb30-2"><a href="penyajian-data.html#cb30-2" tabindex="-1"></a><span class="fu">plot</span>(roket)</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="docs/images/unnamed-chunk-10-1.png" width="672" /></p>
 <div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="penyajian-data.html#cb31-1" tabindex="-1"></a><span class="co">#jika mau merubah gaya grafik</span></span>
 <span id="cb31-2"><a href="penyajian-data.html#cb31-2" tabindex="-1"></a><span class="fu">plot</span>(roket,<span class="at">type=</span><span class="st">&quot;o&quot;</span>,<span class="at">col=</span><span class="st">&quot;blue&quot;</span>)</span>
 <span id="cb31-3"><a href="penyajian-data.html#cb31-3" tabindex="-1"></a></span>
 <span id="cb31-4"><a href="penyajian-data.html#cb31-4" tabindex="-1"></a><span class="fu">title</span>(<span class="at">main=</span><span class="st">&quot;Jumlah Roket Jatuh&quot;</span>,<span class="at">col.main=</span><span class="st">&quot;red&quot;</span>,<span class="at">font.main=</span><span class="dv">4</span>)</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-10-2.png" width="672" /></p>
+<p><img src="docs/images/unnamed-chunk-10-2.png" width="672" /></p>
 <p>Untuk grafik garis maka yang paling sesuai dengan karakteristik data adalah data time series. Bisa juga data panel yang menunjukka. . apakah kalau data cross section bisa diubah. Maslaah mengubah tidak sulit karena hal tersebut dapat diubah dengan cara memasukkan nilai dan grafik
 Analisis grafik untuk mengidentifikasi pola, tren, atau perubahan seiring waktu . Visualisasi memberikan interprestasi dari peningkatan sesuatu data atau penurunan.</p>
 </div>
@@ -332,12 +332,12 @@ Untuk membuat ini kita harus hitung kalau lingkaran tersebut adalah 360 derajat.
 misalnya kita menemukan kalau suatu kategori</p>
 <p>(kategori dan elemen dijelaskan di awal) bernilai porsi 25 maka kita bisa mengkalikan angka 25% dengan 360 derajat yang hasilnya 90 derajat. Maka hal itu akan kita hitung sebagai nilai sepermpat yang bisa saja tegak atau mungkin anda memlih yang ada di bagian bawah atau atas selama intu setara dengan 90% maka itu tidak menjadi masalah.</p>
 <div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="penyajian-data.html#cb35-1" tabindex="-1"></a><span class="fu">pie</span>(stoko<span class="sc">$</span>jumlahstock,<span class="at">labels =</span> stoko<span class="sc">$</span>jumlahstock)</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p><img src="docs/images/unnamed-chunk-13-1.png" width="672" /></p>
 <div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="penyajian-data.html#cb36-1" tabindex="-1"></a><span class="co">#Menambahkan judul Grafik</span></span>
 <span id="cb36-2"><a href="penyajian-data.html#cb36-2" tabindex="-1"></a><span class="fu">pie</span>(stoko<span class="sc">$</span>jumlahstock,<span class="at">labels=</span>stoko<span class="sc">$</span>jumlahstock, <span class="at">main=</span><span class="st">&quot;Stok Toko Sepeda Suka&quot;</span>,<span class="at">col=</span><span class="fu">colors</span>(<span class="dv">5</span>))</span>
 <span id="cb36-3"><a href="penyajian-data.html#cb36-3" tabindex="-1"></a><span class="co">#Menambahkan Legenda</span></span>
 <span id="cb36-4"><a href="penyajian-data.html#cb36-4" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">&quot;topright&quot;</span>,<span class="fu">c</span>(<span class="st">&quot;Poly&quot;</span>,<span class="st">&quot;Genius&quot;</span>,<span class="st">&quot;Doma&quot;</span>,<span class="st">&quot;Color&quot;</span>,<span class="st">&quot;Beski&quot;</span>),<span class="at">cex=</span><span class="fl">0.7</span>,<span class="at">fill=</span><span class="fu">colors</span>(<span class="dv">5</span>))</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-13-2.png" width="672" /></p>
+<p><img src="docs/images/unnamed-chunk-13-2.png" width="672" /></p>
 </div>
 <div id="grafik-daun-atau-steam-leaf" class="section level2 hasAnchor" number="7.6">
 <h2><span class="header-section-number">7.6</span> Grafik Daun atau Steam leaf<a href="penyajian-data.html#grafik-daun-atau-steam-leaf" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -347,17 +347,10 @@ jika membuat manual maka data-data ini akan sulit sebab kita harus menelsuri dat
 Pemilihan Grafik Data
 Setiap grafk mempunyai keistimewaaan dan kekurangan. Maka kita harus memakainya dengan bijak. Kalau grafik di BPS maka kemungkinan ada banyak yang akan menggunakan grafik berupa batang dan garis saja. Kedua grafik ini umum dan bisa menggambarkan data jenis apa saja. (Sukestiyarno, 2014)
 Penggunaan grafik bantang mungkin kurang menarik daripada penggunaan grafik lingkaran namun penggunaan grafik ini akan membuat lebih efisien. Efisien dalam menyakian data yang sudah tersedia.</p>
-<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="penyajian-data.html#cb37-1" tabindex="-1"></a><span class="co">#membuat vector data nilai kelas statistika</span></span>
-<span id="cb37-2"><a href="penyajian-data.html#cb37-2" tabindex="-1"></a>nilaistatistika <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">78</span>,<span class="dv">45</span>,<span class="dv">67</span>,<span class="dv">76</span>,<span class="dv">55</span>,<span class="dv">68</span>,<span class="dv">59</span>,<span class="dv">42</span>,<span class="dv">74</span>,<span class="dv">64</span>)</span>
-<span id="cb37-3"><a href="penyajian-data.html#cb37-3" tabindex="-1"></a><span class="co">#membuat perintah grafik daun </span></span>
-<span id="cb37-4"><a href="penyajian-data.html#cb37-4" tabindex="-1"></a><span class="fu">stem</span>(nilaistatistika)</span></code></pre></div>
-<pre><code>## 
-##   The decimal point is 1 digit(s) to the right of the |
-## 
-##   4 | 25
-##   5 | 59
-##   6 | 478
-##   7 | 468</code></pre>
+<pre r.fig.path="docs/images/"><code>#membuat vector data nilai kelas statistika
+nilaistatistika = c(78,45,67,76,55,68,59,42,74,64)
+#membuat perintah grafik daun 
+stem(nilaistatistika)</code></pre>
 <p>Dapat kita lihat nilai tersebut adalah 4 nilai dari puluhan yang merupakan nilai dari stataistika sendagnkan 2 dan 5 adalah mewakili nilia 42 dan 45 dan seterusnya ke bawah</p>
 </div>
 <div id="latihan" class="section level2 unnumbered hasAnchor">

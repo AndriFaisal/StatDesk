@@ -263,7 +263,7 @@ Jenis grafik banyak sekali. Apalagi kalau banyak sekali perangkat lunak yang dap
 
 ## Grafik Garis
 Grafik ini adalah grafik yang paling sederhana yang dapat untuk menggambarkan suatu perkembangan suatu data. Yang ada. Dalam grafik garis kita akan melihat trend yang meningkat karena suatu kenaikan atau data yang meningkat perlahan-lahan ataupun bisa peningkatan tersebut melonjak begitu tajam karena daya yang meningkat aecara tajam.
-```{r}
+```{r, fig.path="docs/images/"}
 roket=c(2,3,5,6,7,10,13,3,4)
 plot(roket)
 #jika mau merubah gaya grafik
@@ -332,7 +332,7 @@ Untuk membuat ini kita harus hitung kalau lingkaran tersebut adalah 360 derajat.
 misalnya kita menemukan kalau suatu kategori 
 
 (kategori dan elemen dijelaskan di awal) bernilai porsi 25 maka kita bisa mengkalikan angka 25% dengan 360 derajat yang hasilnya 90 derajat. Maka hal itu akan kita hitung sebagai nilai sepermpat yang bisa saja tegak atau mungkin anda memlih yang ada di bagian bawah atau atas selama intu setara dengan 90% maka itu tidak menjadi masalah. 
-```{r}
+```{r,fig.path="docs/images/"}
 pie(stoko$jumlahstock,labels = stoko$jumlahstock)
 #Menambahkan judul Grafik
 pie(stoko$jumlahstock,labels=stoko$jumlahstock, main="Stok Toko Sepeda Suka",col=colors(5))
@@ -349,7 +349,7 @@ jika membuat manual maka data-data ini akan sulit sebab kita harus menelsuri dat
 Pemilihan Grafik Data
 Setiap grafk mempunyai keistimewaaan dan kekurangan. Maka kita harus memakainya dengan bijak. Kalau grafik di BPS maka kemungkinan ada banyak yang akan menggunakan grafik berupa batang dan garis saja. Kedua grafik ini umum dan bisa menggambarkan data jenis apa saja. (Sukestiyarno, 2014) 
 Penggunaan grafik bantang mungkin kurang menarik daripada penggunaan grafik lingkaran namun penggunaan grafik ini akan membuat lebih efisien. Efisien dalam menyakian data yang sudah tersedia.
-```{r}
+```{r.fig.path="docs/images/"}
 #membuat vector data nilai kelas statistika
 nilaistatistika = c(78,45,67,76,55,68,59,42,74,64)
 #membuat perintah grafik daun 

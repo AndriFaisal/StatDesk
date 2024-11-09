@@ -2,4 +2,6 @@
 
 Saya menulis di sini untuk membagi ilmu saya dalam bidang statistik 
 
-
+## Isi Buku 
+Buku ini berisi mengenai Statistik Deskriptif dan bagaiaman pengelolaanya dengan menggunakan perangkat lunak (software) Rstudio. Ada bagian bentuk penyajian data agar bisa diikuti oleh para pembaca. 
+Penulis masih sadar kalau buku ini jauh dari kata sempurna dan perbaikan akan selalu dilakukan sehingga bisa mmebuat buku ini menjadi ilmu yang bermanfaat bagi siapa saja. 

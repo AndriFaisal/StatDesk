@@ -1,16 +1,9 @@
-fig:nice-fig
-tab:nice-tab
-eq:binom
-thm:tri
 about
 usage
 render-book
 preview-book
 holla-bookdown
 isi-buku
-cross
-chapters-and-sub-chapters
-captioned-figures-and-tables
 apa-itu-r
 perangkat-lunak-r
 apa-itu-statistik-deskriptif
@@ -28,10 +21,6 @@ statistik-deskriptif-dengan-rsstudio
 footnotes-and-citations
 footnotes
 citations
-blocks
-equations
-theorems-and-proofs
-callout-blocks
 sharing-your-book
 publishing
 pages

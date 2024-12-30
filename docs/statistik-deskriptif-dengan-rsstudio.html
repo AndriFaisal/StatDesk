@@ -29,7 +29,7 @@ set in the _output.yml file.</p>" />
 <meta name="author" content="Andri Faisal dan Gatot Soepriyono" />
 
 
-<meta name="date" content="2024-12-29" />
+<meta name="date" content="2024-12-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -246,14 +246,14 @@ div.csl-indent {
 <h1><span class="header-section-number">Chapter 9</span> Statistik Deskriptif dengan RSstudio<a href="statistik-deskriptif-dengan-rsstudio.html#statistik-deskriptif-dengan-rsstudio" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Seperti kita ketahui R Studio juga bisa untuk menghitung statistik deskrptif dengan ukuran pemusatan maupun ukuran penyebaran. Kita bisa menggunakan untuk data-data seperti vector, data frame, atau lainnya ada beberapa fungsi yang bisa kita lakukan kita mulai dengan vector</p>
 <p>Vector sudah kita bahasa adalah sebuah data dan kita akang menggunakan vector untuk deskriptif statistik. Penulis akan gunakan vektor sebelumnya yakni nilai statistika. kita menggunakan fungsi pertama adalah summary</p>
-<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="statistik-deskriptif-dengan-rsstudio.html#cb37-1" tabindex="-1"></a><span class="fu">summary</span>(nilaistatistika)</span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="statistik-deskriptif-dengan-rsstudio.html#cb38-1" tabindex="-1"></a><span class="fu">summary</span>(nilaistatistika)</span></code></pre></div>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 ##    42.0    56.0    65.5    62.8    72.5    78.0</code></pre>
-<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="statistik-deskriptif-dengan-rsstudio.html#cb39-1" tabindex="-1"></a><span class="fu">sd</span>(nilaistatistika)</span></code></pre></div>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="statistik-deskriptif-dengan-rsstudio.html#cb40-1" tabindex="-1"></a><span class="fu">sd</span>(nilaistatistika)</span></code></pre></div>
 <pre><code>## [1] 12.47932</code></pre>
 <p>Pada bagian perintah ini kita bisa melihat ada beberapa nilai MIn artinya nilai yang paling kecil atau minimal maximal nilai yang paling besar. Dalam fungsi ini tidak ada standar deviasi ataupun varians. kita bsia mengetik dengan perintah sd atau singnkatan dari stndard deviasi. KIta bis alihat di artikel ini <span class="citation">Lindsay Plater and Oremush (<a href="#ref-Platter2024">2024</a>)</span></p>
 <p>Perintah untuk menghitung statsitik deskriptif kita bisa lakukan pada data. frame dengan mengetik perintah yang sama yakni summary seperti dibawah ini menggunakan data.frame dat.coba.</p>
-<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="statistik-deskriptif-dengan-rsstudio.html#cb41-1" tabindex="-1"></a><span class="fu">summary</span>(datcoba)</span></code></pre></div>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="statistik-deskriptif-dengan-rsstudio.html#cb42-1" tabindex="-1"></a><span class="fu">summary</span>(datcoba)</span></code></pre></div>
 <pre><code>##       id                saving          income    
 ##  Length:7           Min.   :100.0   Min.   :1000  
 ##  Class :character   1st Qu.:125.0   1st Qu.:1125  

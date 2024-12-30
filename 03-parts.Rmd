@@ -281,7 +281,7 @@ Untuk mengenali grafik ini maka ada bagian seperti box yang dibagi dua dan juga 
 Bagi Penulis Box Plot cukup merepotkan bagi penulis  dan penulis berkeyakinan bahkan mahasiswa kebanyakan tidak dapat mebaca plot tersebut karena memang jarang digunakan apalagi kalau orang umum. Bentuknya kurang umum dibandingan grafik garis, batang, lingkaran maupun gamvar , Sedangkan grafik di sana adalah termausk grafik yang mudah dibca dengan orang yang awam. 
 KIta melihat kota sebagai representasi dari nilai Kuartil 3 sampain nilai Kuartil satu . Khusus Box plot ini untuk mencari bentuk dari sekumpulan data tersebut. Sekumpulan data atau satu set adalah biasanya yang dijadikan sample . ini digunakan untuk mendeteksi outlier yang biasanya cukup merepotkan adalah data yang berbeda dengan kebanyakan atau juga data ekstrim yang ada dalam sekumpulan data. data outlier adalah data yang ada dalam sekumpulan namun mempunyai nilai yang jauh berbeda dalam rentangan Kuartil satu Maupun kuartil 3 sedangkan nilai ekstrim adalah nilai yang sudah sangat jauh beda. Ini penting karena ada memang data yang dipilih-pilih unuk kesesuaian kegunaan data. 
 Untuk mendeteksi outlier kita melihat adanya whisker di atas ataupun dibawah box tersebut. kalau ada nlai whisker yang panjang sekalai melebih tiga kali lebar kotak maka itu mengindikasikan adanya suatu nilai ekstrim.
-```{r}
+```{r,fig.path="docs/images/"}
 # Menggunakan data bawaan mtcars
 data(mtcars)
 
@@ -300,7 +300,7 @@ boxplot(mpg ~ cyl,
 ## Grafik Batang 
 Sesuai dengan namanya grafik batang adalah berisi batang atau persegi yang dapat untuk mewakili atau representasi data
 Pembuatan grafik batang dapat dilakukan manual dengan rangka pembuatan manual kita bisa membuat grafik batang dengan nilai yang sudah ada di dalam tabel tersebut titik memang setiap pembuatan grafik itu tidak akan terlepas dari apa yang namanya tabel kalau kita membuat grafik sebelumnya itu.
-```{r}
+```{r,fig.path="docs/images/"}
 #Membuat Data terlebih dahulu
 stocktoko <-c("Poly", "Genius", "Doma", "Color", "Beski")
 jumlahstock<-c(110,20,30,40,50)
@@ -349,13 +349,20 @@ jika membuat manual maka data-data ini akan sulit sebab kita harus menelsuri dat
 Pemilihan Grafik Data
 Setiap grafk mempunyai keistimewaaan dan kekurangan. Maka kita harus memakainya dengan bijak. Kalau grafik di BPS maka kemungkinan ada banyak yang akan menggunakan grafik berupa batang dan garis saja. Kedua grafik ini umum dan bisa menggambarkan data jenis apa saja. (Sukestiyarno, 2014) 
 Penggunaan grafik bantang mungkin kurang menarik daripada penggunaan grafik lingkaran namun penggunaan grafik ini akan membuat lebih efisien. Efisien dalam menyakian data yang sudah tersedia.
-```{r.fig.path="docs/images/"}
+```{r}
 #membuat vector data nilai kelas statistika
 nilaistatistika = c(78,45,67,76,55,68,59,42,74,64)
+```
+
+
+maka kita buat grafiknya 
+```{r.fig.path="docs/images/"}
 #membuat perintah grafik daun 
 stem(nilaistatistika)
 ```
 Dapat kita lihat nilai tersebut adalah 4 nilai dari puluhan yang merupakan nilai dari stataistika sendagnkan 2 dan 5 adalah mewakili nilia 42 dan 45 dan seterusnya ke bawah
+
+Kemungkinan gambar karena tidak ada pathnya. ini kata dari rtsudio maka saya akan jelaskan pathnya nanti di buku yang lain. 
 
 ## Latihan{-}
 1.	Apakah jenis grafik yang dapat digunakan untuk jenis data berkala? Jelaskan?

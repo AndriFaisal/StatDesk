@@ -29,7 +29,7 @@ set in the _output.yml file.</p>" />
 <meta name="author" content="Andri Faisal dan Gatot Soepriyono" />
 
 
-<meta name="date" content="2024-12-29" />
+<meta name="date" content="2024-12-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -288,7 +288,7 @@ Untuk mendeteksi outlier kita melihat adanya whisker di atas ataupun dibawah box
 <span id="cb30-9"><a href="penyajian-data.html#cb30-9" tabindex="-1"></a>        <span class="at">ylab =</span> <span class="st">&quot;Konsumsi Bahan Bakar (mpg)&quot;</span>,</span>
 <span id="cb30-10"><a href="penyajian-data.html#cb30-10" tabindex="-1"></a>        <span class="at">col =</span> <span class="fu">c</span>(<span class="st">&quot;lightblue&quot;</span>, <span class="st">&quot;lightgreen&quot;</span>, <span class="st">&quot;salmon&quot;</span>),</span>
 <span id="cb30-11"><a href="penyajian-data.html#cb30-11" tabindex="-1"></a>        <span class="at">border =</span> <span class="st">&quot;darkblue&quot;</span>)</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><img src="docs/images/unnamed-chunk-11-1.png" width="672" /></p>
 </div>
 <div id="grafik-batang" class="section level2 hasAnchor" number="6.4">
 <h2><span class="header-section-number">6.4</span> Grafik Batang<a href="penyajian-data.html#grafik-batang" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -303,9 +303,9 @@ Pembuatan grafik batang dapat dilakukan manual dengan rangka pembuatan manual ki
 <span id="cb31-7"><a href="penyajian-data.html#cb31-7" tabindex="-1"></a><span class="fu">View</span>(stoko)</span>
 <span id="cb31-8"><a href="penyajian-data.html#cb31-8" tabindex="-1"></a></span>
 <span id="cb31-9"><a href="penyajian-data.html#cb31-9" tabindex="-1"></a><span class="fu">barplot</span>(stoko<span class="sc">$</span>jumlahstock,<span class="at">main=</span><span class="st">&quot;stok toko sepeda suka&quot;</span>, <span class="at">xlab=</span><span class="st">&quot;nama stock&quot;</span>, <span class="at">ylab=</span><span class="st">&quot;jumlahstock&quot;</span>,<span class="at">names.arg=</span>stoko<span class="sc">$</span>stocktoko)</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<p><img src="docs/images/unnamed-chunk-12-1.png" width="672" /></p>
 <div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="penyajian-data.html#cb32-1" tabindex="-1"></a><span class="fu">barplot</span>(stoko<span class="sc">$</span>jumlahstock,<span class="at">main=</span><span class="st">&quot;stok toko sepeda suka&quot;</span>, <span class="at">xlab=</span><span class="st">&quot;nama stock&quot;</span>, <span class="at">ylab=</span><span class="st">&quot;jumlahstock&quot;</span>,<span class="at">names.arg=</span>stoko<span class="sc">$</span>stocktoko,<span class="at">col=</span><span class="fu">heat.colors</span>(<span class="dv">5</span>))</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-12-2.png" width="672" /></p>
+<p><img src="docs/images/unnamed-chunk-12-2.png" width="672" /></p>
 <p>Kita masih memiliki kategori apa saja yang akan kita jadikan limbah tabel misalnya suatu wilayah mempunyai penghasilan sebagai penghasilan kelapa sawit di suatu produksi kita akan membuat batang satu antara kabupaten a yang dihasilkan menjadi poros dari sumbu x atau sumbu horizontal. Kemudian beberapa jumlah dari sumbu y tersebut kalau kita mencontohkan jumlah dari produksi sawit tersebut maka yang tinggi akan diwakili oleh batang yang paling tinggi kita bisa ganti batang kelapa sawit menjadi batang sawit tentu bisa namun judulnya bukan lagi grafik batang grafik gambar dalam grafik batang ada juga grafik yang berbentuk tiga dimensi terdiri atas suatu ruang yang dalam gerakan 3 dimensi atau bahkan 4 dimensi karena itu susah akan seperti waktu atau interaktif hal itu kalau kita hanya ingin menyebabkan maksudnya dalam bentuk seperti buku Harry Potter yang gambarnya atau ilustrasi yang bergerak gitu kalau saya disuruh membuat data tentang data pribadi untuk Anda membuat tahu mau dibuat apa karena kita tidak mempunyai tujuan dalam pengumpulan data tersebut sekali untuk membuat tabel grafik tersebut.
 Bagi penulis, box plot cukup untuk mendapatkan penulis berkaitan kalian bahkan tidak ada yang dapat membuat box tersebut lain hanya dengan grafik garis batang atau pie dan sejenisnya merupakan grafik yang mudah dibacakan oleh orang awam sekalipun. Kita melihat kotak itu representasi daripada nilai Q3 sampai Q1 yang dinamakan interkuartil. Khusus buat untuk mencari suatu data tersebut itu mendeteksi suatu dari out layer ataupun data ekstrem yang ada sekumpulan data tersebut data output adalah data yang ada dalam tetapi nilainya berbeda masalah ada yang juga sekali dan ini penting. Karenanya menang data tersebut juga dipilah-pilah untuk kesesuaian dengan kesesuaian.</p>
 <p>Box Plot adalah grafik dalam bentuk kotak atau box penampilan seperti kotak yang mengambang diantara tertentu dan bagiannya adalah whisker yang berada di tengah kotak tersebut sedangkan ada nilai Q3 dan Q1 kalau kita akan mencari nilai out player begitu panjang whiskernya itu bisa dia ke bawah ataupun bisa dia juga ke atas.</p>
@@ -336,11 +336,13 @@ jika membuat manual maka data-data ini akan sulit sebab kita harus menelsuri dat
 Pemilihan Grafik Data
 Setiap grafk mempunyai keistimewaaan dan kekurangan. Maka kita harus memakainya dengan bijak. Kalau grafik di BPS maka kemungkinan ada banyak yang akan menggunakan grafik berupa batang dan garis saja. Kedua grafik ini umum dan bisa menggambarkan data jenis apa saja. (Sukestiyarno, 2014)
 Penggunaan grafik bantang mungkin kurang menarik daripada penggunaan grafik lingkaran namun penggunaan grafik ini akan membuat lebih efisien. Efisien dalam menyakian data yang sudah tersedia.</p>
-<pre r.fig.path="docs/images/"><code>#membuat vector data nilai kelas statistika
-nilaistatistika = c(78,45,67,76,55,68,59,42,74,64)
-#membuat perintah grafik daun 
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="penyajian-data.html#cb35-1" tabindex="-1"></a><span class="co">#membuat vector data nilai kelas statistika</span></span>
+<span id="cb35-2"><a href="penyajian-data.html#cb35-2" tabindex="-1"></a>nilaistatistika <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">78</span>,<span class="dv">45</span>,<span class="dv">67</span>,<span class="dv">76</span>,<span class="dv">55</span>,<span class="dv">68</span>,<span class="dv">59</span>,<span class="dv">42</span>,<span class="dv">74</span>,<span class="dv">64</span>)</span></code></pre></div>
+<p>maka kita buat grafiknya</p>
+<pre r.fig.path="docs/images/"><code>#membuat perintah grafik daun 
 stem(nilaistatistika)</code></pre>
 <p>Dapat kita lihat nilai tersebut adalah 4 nilai dari puluhan yang merupakan nilai dari stataistika sendagnkan 2 dan 5 adalah mewakili nilia 42 dan 45 dan seterusnya ke bawah</p>
+<p>Kemungkinan gambar karena tidak ada pathnya. ini kata dari rtsudio maka saya akan jelaskan pathnya nanti di buku yang lain.</p>
 </div>
 <div id="latihan" class="section level2 unnumbered hasAnchor">
 <h2>Latihan<a href="penyajian-data.html#latihan" class="anchor-section" aria-label="Anchor link to header"></a></h2>
